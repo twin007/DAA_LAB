@@ -1,4 +1,3 @@
-import ssl
 import matplotlib.pyplot as plt 
 import random 
 def bubble_sort(arr):
@@ -44,13 +43,6 @@ while x <= arr_size:
     arr_sb.append(sb)
     arr_ss.append(ss)
     x += 10
-
-
-# print(f"this is bubble sort {arr}")
-# print(f"this is selection sort {arr}")
-# print(f"step_count of bubble sort {sb}")
-# print(f"step_count of selection sort {ss}")
-
 
 plt.plot(arr_y, arr_ss)
 plt.plot(arr_y, arr_sb)
